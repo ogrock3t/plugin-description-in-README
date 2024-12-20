@@ -1,0 +1,23 @@
+<idea-plugin>
+    <id>com.yourname.AddInfoToReadme</id>
+    <name>My Action Plugin</name>
+    <vendor>Your Name</vendor>
+    <description>
+        This plugin adds author and creation date info to the README.md file.
+    </description>
+
+    <!-- Зависимость от основной платформы IDEA -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <actions>
+        <!-- Действие будет добавлено в главное меню -->
+        <action id="AddInfoToReadmeAction"
+                class="com.yourname.AddInfoToReadme"
+                text="Add Author Info to README"
+                description="Adds author and creation date to README.md"
+                icon="/icons/icon.png">
+            <!-- Это добавит твою кнопку в меню "Tools" -->
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+        </action>
+    </actions>
+</idea-plugin>
