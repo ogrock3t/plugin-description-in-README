@@ -1,7 +1,5 @@
 # Add Author Info to README Plugin
 
-### Abubakirov Askar ITMO M3106
-
 ## Описание
 Этот плагин для **PyCharm** автоматически добавляет информацию об авторе в файл `README.md` вашего проекта. Плагин выполнен на Kotlin.
 
